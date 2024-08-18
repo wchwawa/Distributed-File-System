@@ -1,3 +1,4 @@
+rm -rf ./env
 cd ../raft-java-core && mvn clean install -DskipTests
 cd -
 mvn clean package

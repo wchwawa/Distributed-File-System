@@ -19,14 +19,5 @@
         <module>raft-java-example</module>
         <module>raft-java-admin</module>
     </modules>
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.google.protobuf</groupId>
-                <artifactId>protobuf-java</artifactId>
-                <version>3.21.12</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
 </project>

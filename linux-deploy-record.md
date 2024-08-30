@@ -1,4 +1,4 @@
-Raft项目部署与debug笔记（Raft项目）
+Raft-Java部署与debug
 
 	1.Docker（选择docker linux容器作为开发和部署平台）
 		选择最新版本ubuntu作为镜像，绑定挂载本地目录, 便于在本地机器开发，容器环境内部署。
@@ -30,7 +30,13 @@ Raft项目部署与debug笔记（Raft项目）
 	5.重新部署，测试读写
 		成功
 
-	6.开spring boot项目
-		...
-				
-			
+Raft-java源码精读
+	1.状态机
+
+
+
+Raft-java项目拓展1:接入rocksdb		
+
+
+Raft-java项目拓展2:引入Springboot框架
+		

@@ -14,9 +14,6 @@ import com.github.raftimpl.raft.service.impl.RaftConsensusServiceImpl;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by raftimpl on 2017/5/9.
- */
 public class ServerMain {
     public static void main(String[] args) {
         if (args.length != 3) {

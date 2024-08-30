@@ -4,7 +4,7 @@ import com.github.raftimpl.raft.proto.RaftProto;
 
 /**
  * raft节点之间相互通信的接口。
- * Created by raftimpl on 2017/5/2.
+ * Created by wchwawa on 2024/8/12.
  */
 public interface RaftConsensusService {
 

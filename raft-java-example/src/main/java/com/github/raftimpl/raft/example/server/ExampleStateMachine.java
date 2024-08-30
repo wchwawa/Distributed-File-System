@@ -12,9 +12,6 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 
-/**
- * Created by raftimpl on 2017/5/9.
- */
 public class ExampleStateMachine implements StateMachine {
 
     private static final Logger LOG = LoggerFactory.getLogger(ExampleStateMachine.class);

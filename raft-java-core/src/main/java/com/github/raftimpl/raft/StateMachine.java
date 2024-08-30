@@ -1,8 +1,7 @@
 package com.github.raftimpl.raft;
 
 /**
- * Raft状态机接口类
- * Created by raftimpl on 2017/5/10.
+ * Created by wchwawa on 2024/5/3.
  */
 public interface StateMachine {
 

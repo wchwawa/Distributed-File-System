@@ -4,8 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * raft配置选项
- * Created by raftimpl on 2017/5/2.
+ * Created by wchwawa on 2024/5/3.
  */
 @Setter
 @Getter

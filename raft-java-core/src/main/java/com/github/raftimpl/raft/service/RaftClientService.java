@@ -4,7 +4,7 @@ import com.github.raftimpl.raft.proto.RaftProto;
 
 /**
  * raft集群管理接口。
- * Created by raftimpl on 2017/5/14.
+ * Created by wchwawa on 2024/8/15.
  */
 public interface RaftClientService {
 

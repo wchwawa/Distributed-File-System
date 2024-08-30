@@ -12,9 +12,6 @@ import org.slf4j.LoggerFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by raftimpl on 2017/5/14.
- */
 public class RaftClientServiceImpl implements RaftClientService {
     private static final Logger LOG = LoggerFactory.getLogger(RaftClientServiceImpl.class);
     private static final JsonFormat jsonFormat = new JsonFormat();

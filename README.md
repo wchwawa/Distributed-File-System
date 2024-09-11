@@ -56,7 +56,7 @@ Reduces unnecessary leader switches, improving system stability.
 
 ## 🚀 Quick Start
 
-### 1. Test and Deploy Raft Cluster
+### Test and Deploy Raft Cluster
 Deploy a 3-instance Raft cluster on a single local machine by running the `deploy.sh` script in the `example` subproject.
 This script will set up three instances: `example1`, `example2`, and `example3` in the `raft-java-example/env` directory. It will also create a `client` directory to test the Raft cluster’s read and write functions.
 
@@ -70,15 +70,16 @@ After a successful deployment, test the write operation using the following comm
 Test read operation with the following command:
    ``` bash
    ./bin/run_client.sh "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" hello
+```
 
-Test Client Write and Read
+### Test Client Write and Read
 
 Navigate to the web-client client and run the deploy.sh script.
 
-For Write Operations:
+#### For Write Operations:
 
 Use Postman or curl to send a POST request to http://127.0.0.1:8080/raft/write with the request body: "key=xx&value=xx".
 
-For Read Operations:
+#### For Read Operations:
 
 Use Postman or curl to send a GET request to http://127.0.0.1:8080/raft/read?key=xx.

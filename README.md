@@ -83,3 +83,20 @@ Use Postman or curl to send a POST request to http://127.0.0.1:8080/raft/write w
 #### For Read Operations:
 
 Use Postman or curl to send a GET request to http://127.0.0.1:8080/raft/read?key=xx.
+
+## ⚔️ Performance Test
+<img width="790" alt="image" src="https://github.com/user-attachments/assets/24c10bb6-209f-43e4-9d7f-41faceac8a04">
+
+- **🖥️ Operating System**: Linux x86 in amd64 docker container
+- **⚙️ CPU and RAM**: M3pro | 32GB RAM
+- **🔧 Testing Tool**: wrk
+- **🗂️ Cluster Size**: 3-node Raft cluster
+- **💾 Database Engine**: RocksDB
+- **🌐 Network Environment**: Local Network
+
+#### 📊 Test Metrics:
+- **⏱️ Average Latency**: 94.13ms
+- **⚡ Maximum Latency**: 1.12s
+- **📈 Requests per Second (RPS)**: 934.96
+- **📉 Latency Standard Deviation**: 172.70ms
+- **📊 P99 Latency**: ~496ms

@@ -1,4 +1,3 @@
-
 # 🚀 High-Performance Distributed KV Storage System
 
 ‼️ **Must Use x86-Linux**
@@ -69,4 +68,17 @@ After a successful deployment, test the write operation using the following comm
    ./bin/run_client.sh "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" hello world
 
 Test read operation with the following command:
-./bin/run_client.sh "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" hello
+   ``` bash
+   ./bin/run_client.sh "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" hello
+
+Test Client Write and Read
+
+Navigate to the web-client client and run the deploy.sh script.
+
+For Write Operations:
+
+Use Postman or curl to send a POST request to http://127.0.0.1:8080/raft/write with the request body: "key=xx&value=xx".
+
+For Read Operations:
+
+Use Postman or curl to send a GET request to http://127.0.0.1:8080/raft/read?key=xx.

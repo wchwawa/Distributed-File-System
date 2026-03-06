@@ -2,7 +2,7 @@
 
 ‼️ **Must Use x86-Linux**
 
-For Mac M-chip users, it’s recommended to use an x86 Linux Docker image. Performance may slightly decline, but it’s easy to set up.
+For Arm users, it’s recommended to use an x86 Linux Docker image. Performance may slightly decline, but it’s easy to set up.
 
 ## 📌 System Overview
 
